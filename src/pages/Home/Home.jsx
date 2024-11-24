@@ -1,10 +1,10 @@
+import styles from "./Home.module.scss";
 import HomeHeader from "./HomeHeader";
 
 const Home = () => {
   return (
-    <div>
+    <div className={styles["home-page"]}>
       <HomeHeader />
-      Home
     </div>
   );
 };
